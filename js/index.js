@@ -199,7 +199,7 @@ function render(image) {
   // Set a rectangle the same size as the image.
   // setRectangle(gl, 0, 0, image.width, image.height);
   // 设置图片100%显示,和容器大小一致。
-  setRectangle(gl, 0, 0, 1200, 600);
+  setRectangle(gl, 0, 0, gl.canvas.width, gl.canvas.height);
 
   // Draw the rectangle.
   var primitiveType = gl.TRIANGLES;
