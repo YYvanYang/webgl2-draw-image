@@ -1,0 +1,10 @@
+/* @import url("https://webgl2fundamentals.org/webgl/resources/webgl-tutorials.css"); */
+body {
+  margin: 0;
+}
+canvas {
+  width: 1200px;
+  height: 600px;
+  display: block;
+  border: 1px solid red;
+}
